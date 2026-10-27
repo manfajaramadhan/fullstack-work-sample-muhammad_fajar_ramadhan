@@ -1,0 +1,36 @@
+.product-header,
+.product-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 0 16px;
+}
+
+.product-header {
+  height: 45px;
+  font-weight: 700;
+  background: #f3f4f6;
+}
+
+.product-row {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.product-row button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.product-row span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+section input {
+  width: 100%;
+  max-width: 350px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
